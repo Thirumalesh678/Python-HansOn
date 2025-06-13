@@ -5,7 +5,7 @@ class Employee:
         self.e_id=e_id       
         self.dept=dept
 
-    def addEmployee(self):
+    def showEmployee(self):
         print("hello my name is: ", self.name)
         print("my Employee Id is: ", self.e_id)
         print("hello I belong to "+self.dept+" department")
@@ -15,4 +15,4 @@ emp = Employee('thiru',678,'A1')
 print(emp.name)
 print(emp.e_id)
 print(emp.dept)
-emp.addEmployee()
+emp.showEmployee()
