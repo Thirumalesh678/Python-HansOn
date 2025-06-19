@@ -7,7 +7,7 @@ from scipy import stats
 y= np.array([25,90,145,35,170,110])
 print("mean of Sales: ",np.mean(y))
 print("median of Sales: ",np.median(y))
-print("mode of Sales: ",stats.mean(y).mode)
+print("mode of Sales: ",stats.mode(y).mode)
 
 #Standard deviation 
 sd = np.std(y)
