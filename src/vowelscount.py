@@ -14,4 +14,4 @@ def countVowels(text):
 
 
 print(countVowels("The quick brown fox jump over a lazy dog"))
-#print(countVowels("thirumalesh"))
+#print(countVowels("thirumalesh")) 

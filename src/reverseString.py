@@ -1,6 +1,6 @@
 def reverseString():
 	strV = "thirumalesh"
 	rev = "".join(reversed(strV))
-	print(rev)
+	print(strV,"",rev)
 
 reverseString()

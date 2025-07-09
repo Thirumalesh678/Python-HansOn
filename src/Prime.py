@@ -8,3 +8,4 @@ for i in range(2,varNum):
     else:
         print("it's not a prime")
         break
+
